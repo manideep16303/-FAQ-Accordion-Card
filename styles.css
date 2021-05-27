@@ -1,0 +1,157 @@
+* {
+  padding: 0%;
+  margin: 0%;
+}
+body {
+  font-family: "Kumbh Sans", sans-serif;
+  background-color: #8966e8;
+}
+
+.main {
+  /* Background Image */
+  background-image: url(/images/bg-pattern-desktop.svg);
+  background-repeat: no-repeat;
+  background-position: -200% 60%;
+  background-size: 750px;
+  /* End */
+  padding: 60px;
+  background-color: white;
+  width: 800px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 30px;
+}
+#faq {
+  margin-bottom: 25px;
+  font-weight: bold;
+}
+.questions {
+  line-height: 40px;
+  width: 45%;
+  margin-top: 30px;
+  margin-right: 50px;
+  float: right;
+}
+hr {
+  border: 0;
+  width: 25.6rem;
+  height: 0.1px;
+  background: rgb(150, 150, 150);
+}
+h4 {
+  font-weight: bold;
+}
+h4:hover {
+  color: #f46539;
+}
+
+p {
+  width: 100%;
+  padding: 0 0 12px 0;
+  line-height: 1.8;
+  font-size: 12px;
+  display: none;
+}
+.arrow {
+  float: right;
+  margin-right: -40px;
+  margin-top: -25px;
+}
+
+.main-img {
+  float: left;
+  margin-left: -130px;
+}
+.box-img {
+  margin-bottom: -325px;
+  margin-left: -525px;
+}
+
+@media only screen and (max-width: 800px) {
+  * {
+    margin: 0%;
+    padding: 0%;
+  }
+
+  .main {
+    background-position: 50% -220%;
+    background-size: 500px;
+    width: 32rem;
+    padding: 30px 30px 50px 30px;
+    transform: translate(-50%, -40%);
+  }
+  .questions {
+    margin: 0%;
+    padding: 0%;
+    float: none;
+    width: 100%;
+    line-height: 3.2;
+  }
+
+  hr {
+    width: 100%;
+  }
+  .arrow {
+    margin-right: 0px;
+  }
+  #faq {
+    margin: 0%;
+    text-align: center;
+  }
+  .main-img {
+    margin: 0%;
+    margin-top: -16.4rem;
+    width: 100%;
+    padding-bottom: 3rem;
+  }
+  .box-img {
+    margin-top: -5rem;
+    margin-bottom: 0%;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  * {
+    margin: 0%;
+    padding: 0%;
+  }
+
+  .main {
+    background-position: 50% -70%;
+    background-size: 320px;
+    width: 20rem;
+    padding: 30px 30px 50px 30px;
+    transform: translate(-50%, -40%);
+  }
+  .questions {
+    margin: 0%;
+    padding: 0%;
+    float: none;
+    width: 100%;
+    line-height: 3.2;
+  }
+
+  hr {
+    width: 100%;
+  }
+  .arrow {
+    margin-right: 0px;
+  }
+  #faq {
+    margin: 0%;
+    text-align: center;
+  }
+  .main-img {
+    margin: 0%;
+    margin-top: -10.5rem;
+    width: 100%;
+  }
+  .box-img {
+    position: absolute;
+    margin: 0%;
+    margin-bottom: -2rem;
+    width: 7rem;
+  }
+}
